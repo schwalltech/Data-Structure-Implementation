@@ -22,17 +22,17 @@ void insert(queue &p,int no)
     }
     else {
 
-        if(p.f==-1)
-        {
-            p.f=0;
-            p.r=0;
-        }
-        else{
-
-            p.r++;
-            p.a[p.r]=no;
-
-        }
+         temp=p.a[p.f];
+         p.a[p.f]=0;
+         if(p.f==p.r)
+         {
+             p.f=-1;
+             p.r=-1;
+         }
+         else{
+             p.f++;
+         }
+        return temp;
         
         
     }
