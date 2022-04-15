@@ -7,8 +7,8 @@ int countParent(node *t)
         {
             c++;
         }
-        count(t->left);
-        count(t->right);
+        countParent(t->left);
+        countParent(t->right);
     }
     return c;
 }
