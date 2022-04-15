@@ -7,8 +7,8 @@ int countLeaf(node *t)
         {
             c++;
         }
-        count(t->left);
-        count(t->right);
+        countLeaf(t->left);
+        countLeaf(t->right);
     }
     return c;
 }
