@@ -1,4 +1,4 @@
-// quick_sort
+// quick_sort implementation
 
 #include<iostream>
 
