@@ -1,4 +1,5 @@
-// quick_sort implementation
+// quick_sort implementation 
+// it has O(nlogn) in Best Case, O(nlogn) in Average Case, O(n2) in Worst Case
 
 #include<iostream>
 
