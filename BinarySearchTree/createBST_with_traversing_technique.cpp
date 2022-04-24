@@ -1,4 +1,4 @@
-// BST
+// Binary search tree
 
 #include<iostream>
 
