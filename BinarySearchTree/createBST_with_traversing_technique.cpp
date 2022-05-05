@@ -1,4 +1,4 @@
-// Binary search tree
+// Binary search tree with all traversing techniquie like inorder preorder postorder
 
 #include<iostream>
 
