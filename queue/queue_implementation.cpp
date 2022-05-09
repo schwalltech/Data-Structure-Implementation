@@ -22,18 +22,13 @@ void insert(queue &p,int no)
     }
     else {
 
-         temp=p.a[p.f];
-         p.a[p.f]=0;
-         if(p.f==p.r)
-         {
-             p.f=-1;
-             p.r=-1;
-         }
-         else{
-             p.f++;
-         }
-        return temp;
-        
+        p.r++;
+        p.a[p.r]=no;
+
+        if(p.f==-1)
+        {
+            p.f=0;
+        }
         
     }
     
@@ -53,16 +48,16 @@ void insert(queue &p,int no)
          p.a[p.f]=0;
          if(p.f==p.r)
          {
-             p.f=-1;
-             p.r=-1;
+             p.f=-1;p.r=-1;
          }
-         else{
-             p.f++;
-         }
+         else
+            p.f++;
+        
         return temp;
      }
 
  }
+
 void display(queue &p)
 {
     for(int i=p.f;i<=p.r;i++)
