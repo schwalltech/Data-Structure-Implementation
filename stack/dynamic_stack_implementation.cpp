@@ -1,3 +1,5 @@
+// this is dynamic implementation of stack
+
 #include<iostream>
 
 using namespace std;
